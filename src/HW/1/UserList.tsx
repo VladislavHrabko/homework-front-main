@@ -2,14 +2,12 @@ type AddressType = {
   street: string; // ПОДПРАВЛЯЕМ any
   city: string; // ПОДПРАВЛЯЕМ any
 };
-
 type UserType = {
   id: number,
   name: string,
   age: number,
   address: AddressType
 };
-
 type UserListPropsType = {
   users: UserType[]; // ПО МОЕМУ ЧЕГО-ТО НЕ ХВАТАЕТ...
 };
